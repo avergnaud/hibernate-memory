@@ -86,9 +86,9 @@ compliqué : https://docs.oracle.com/javase/8/docs/technotes/guides/troubleshoot
 
 #### eclipse MAT
 
-![alt text](https://gitlab.com/avergnaud/preparation-audit-lemans/raw/master/hbm5-java8/images/eclipse_mat_1.png "eclipse MAT 1")
+![alt text](https://raw.githubusercontent.com/avergnaud/hibernate-memory/master/images/eclipse_mat_1.png "eclipse MAT 1")
 
-![alt text](https://gitlab.com/avergnaud/preparation-audit-lemans/raw/master/hbm5-java8/images/eclipse_mat_2.png "eclipse MAT 2")
+![alt text](https://raw.githubusercontent.com/avergnaud/hibernate-memory/master/images/eclipse_mat_2.png "eclipse MAT 2")
 
 ### heap dumps au cours de l'exéc ?
 
