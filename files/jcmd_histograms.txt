@@ -1,0 +1,76 @@
+au début du programme
+
+ num     #instances         #bytes  class name
+----------------------------------------------
+   1:          1424         163520  [C
+   2:            90          71632  [B
+   3:           570          65168  java.lang.Class
+   4:          1397          33528  java.lang.String
+   5:           590          30720  [Ljava.lang.Object;
+   6:           113           8136  java.lang.reflect.Field
+   7:            89           5696  java.net.URL
+   8:           152           4864  java.util.HashMap$Node
+   9:           256           4096  java.lang.Integer
+  10:           102           4080  java.lang.ref.SoftReference
+  11:            94           3760  java.lang.ref.Finalizer
+  12:            99           3712  [I
+  13:           114           3648  java.util.Hashtable$Entry
+  14:           146           3504  java.util.LinkedList$Node
+  15:            90           2880  java.util.concurrent.ConcurrentHashMap$Node
+  16:            23           2672  [Ljava.util.HashMap$Node;
+  17:             7           2632  java.lang.Thread
+  18:            69           2496  [Ljava.lang.String;
+  19:            77           2464  java.util.LinkedList
+  20:            27           2160  [Ljava.util.WeakHashMap$Entry;
+...
+
+En cours :
+
+ num     #instances         #bytes  class name
+----------------------------------------------
+   1:         25949      104861600  [C
+   2:          5775         639200  java.lang.Class
+   3:         25245         605880  java.lang.String
+   4:          9737         311584  java.util.HashMap$Node
+   5:          5808         305752  [Ljava.lang.Object;
+   6:          1394         305232  [B
+   7:          3255         286440  java.lang.reflect.Method
+   8:          2546         239744  [Ljava.util.HashMap$Node;
+   9:          5990         239600  java.util.LinkedHashMap$Entry
+  10:          6304         201728  java.util.concurrent.ConcurrentHashMap$Node
+  11:          2015         161200  java.lang.reflect.Constructor
+  12:          3322         145768  [I
+  13:          2549         122352  org.hibernate.engine.internal.MutableEntityEntry
+  14:          2115         118440  java.util.LinkedHashMap
+  15:          4843          98136  [Ljava.lang.Class;
+  16:          1244          89568  java.lang.reflect.Field
+  17:          5308          84928  java.lang.Object
+  18:          2549          81568  org.hibernate.engine.internal.EntityEntryContext$ManagedEntityImpl
+  19:          4831          77296  java.lang.Integer
+  20:          1171          65576  java.lang.Class$ReflectionData
+...
+
+A la fin :
+ num     #instances         #bytes  class name
+----------------------------------------------
+   1:         25949      104861600  [C
+   2:          5775         639200  java.lang.Class
+   3:         25245         605880  java.lang.String
+   4:          9737         311584  java.util.HashMap$Node
+   5:          5808         305752  [Ljava.lang.Object;
+   6:          1394         305232  [B
+   7:          3255         286440  java.lang.reflect.Method
+   8:          2546         239744  [Ljava.util.HashMap$Node;
+   9:          5990         239600  java.util.LinkedHashMap$Entry
+  10:          6304         201728  java.util.concurrent.ConcurrentHashMap$Node
+  11:          2015         161200  java.lang.reflect.Constructor
+  12:          3322         145768  [I
+  13:          2549         122352  org.hibernate.engine.internal.MutableEntityEntry
+  14:          2115         118440  java.util.LinkedHashMap
+  15:          4843          98136  [Ljava.lang.Class;
+  16:          1244          89568  java.lang.reflect.Field
+  17:          5308          84928  java.lang.Object
+  18:          2549          81568  org.hibernate.engine.internal.EntityEntryContext$ManagedEntityImpl
+  19:          4831          77296  java.lang.Integer
+  20:          1171          65576  java.lang.Class$ReflectionData
+...
